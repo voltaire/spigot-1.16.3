@@ -17,7 +17,7 @@ settings:
   log-villager-deaths: true
   moved-too-quickly-multiplier: 10.0
   netty-threads: 4
-  bungeecord: true
+  bungeecord: false
   save-user-cache-on-stop-only: false
   sample-count: 12
   timeout-time: 60
