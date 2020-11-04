@@ -1,4 +1,4 @@
-FROM voltairemc/spigot-server:1.16.3 AS spigot
+FROM voltairemc/spigot-server:1.16.4 AS spigot
 FROM amazoncorretto:8-alpine-jre
 WORKDIR /srv/
 COPY --from=spigot /spigot.jar /srv/spigot.jar
